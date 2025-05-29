@@ -1,0 +1,53 @@
+/* Productos.css */
+.inventario-item {
+  background-color: #fff5e1;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.inventario-titulo {
+  color: #6c4f3d;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.inventario-stock {
+  color: #8a6e54;
+  font-size: 0.95rem;
+}
+
+.input-stock {
+  width: 70px;
+  background-color: #fdf6ec;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.boton-agregar {
+  margin-top: 20px;
+  background-color: #d1a15f;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.boton-actualizar {
+  background-color: #ffd9a0;
+  color: #6c4f3d;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.boton-editar {
+  background-color: #a1d1c9;
+  color: #2f4f4f;
+  border-radius: 6px;
+}
+
+.boton-eliminar {
+  background-color: #f28b82;
+  color: white;
+  border-radius: 6px;
+}

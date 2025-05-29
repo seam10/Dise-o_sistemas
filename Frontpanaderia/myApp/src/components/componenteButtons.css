@@ -1,0 +1,46 @@
+.crud-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: start;
+  padding: 0.5rem;
+}
+
+/* Estilos generales para todos los botones */
+.btn {
+  --padding-top: 0.4rem;
+  --padding-bottom: 0.4rem;
+  --padding-start: 1rem;
+  --padding-end: 1rem;
+  --border-radius: 0.5rem;
+  text-transform: none;
+}
+
+/* Inventario - color terciario */
+.btn.inventario {
+  --background: var(--ion-color-tertiary);
+  --color: #ffffff;
+}
+
+/* Reporte de Ventas - color success */
+.btn.reporte {
+  --background: var(--ion-color-success);
+  --color: #ffffff;
+}
+
+/* Carrito - color warning */
+.btn.carrito {
+  --background: var(--ion-color-warning);
+  --color: #000000;
+}
+
+/* Facturación - color dark */
+.btn.facturacion {
+  --background: var(--ion-color-dark);
+  --color: #ffffff;
+}
+
+/* Hover para todos los botones */
+.btn:hover {
+  filter: brightness(1.1);
+}

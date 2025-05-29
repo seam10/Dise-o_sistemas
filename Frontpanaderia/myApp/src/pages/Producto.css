@@ -1,0 +1,172 @@
+/* Fuentes */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f9ff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tarjetas productos */
+.producto-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(33, 150, 243, 0.2); /* sombra azul */
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.producto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(33, 150, 243, 0.35);
+}
+
+/* Nombre producto */
+.producto-nombre {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0d47a1; /* azul oscuro */
+  margin-bottom: 6px;
+}
+
+/* Descripción producto */
+.producto-descripcion {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+  min-height: 40px;
+}
+
+/* Precio producto */
+.producto-precio {
+  background-color: #2196f3; /* azul primario */
+  color: white;
+  padding: 8px 14px;
+  border-radius: 24px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  box-shadow: 0 3px 8px rgba(33, 150, 243, 0.5);
+}
+
+/* Input cantidad */
+.producto-cantidad {
+  margin-bottom: 14px;
+  --padding-start: 14px;
+  border-radius: 8px;
+  border: 1px solid #90caf9;
+  height: 36px;
+  width: 80px;
+  font-size: 16px;
+  color: #0d47a1;
+  transition: border-color 0.3s ease;
+}
+
+.producto-cantidad:focus {
+  border-color: #1976d2;
+  outline: none;
+  box-shadow: 0 0 8px #1976d2aa;
+}
+
+/* Botón agregar */
+.btn-agregar {
+  --background: #ff9800; /* naranja vibrante */
+  --background-hover: #f57c00;
+  --color: white;
+  font-weight: 700;
+  border-radius: 12px;
+  font-size: 16px;
+  height: 36px;
+  width: 48px;
+  padding: 0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-agregar:hover {
+  --background: #ef6c00;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Botón Agregar al carrito */
+.btn-agregar-texto {
+  background-color: #2196f3;
+  color: white;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.btn-agregar-texto:hover {
+  background-color: #1565c0;
+  cursor: pointer;
+}
+
+/* Footer botones */
+.footer-botones {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 12px 0;
+  background-color: #e3f2fd;
+  box-shadow: 0 -2px 8px rgba(33, 150, 243, 0.2);
+}
+
+.btn-footer {
+  flex: 1;
+  margin: 0 8px;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 12px 0;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-footer:hover {
+  background-color: #0d47a1;
+  cursor: pointer;
+}
+
+/* Modal ajustes */
+ion-modal {
+  --border-radius: 18px;
+  --height: 75%;
+  --width: 90%;
+}
+
+/* Listas e items */
+ion-item {
+  border-bottom: 1px solid #e3f2fd;
+  font-size: 16px;
+  color: #0d47a1;
+}
+
+ion-label {
+  font-weight: 600;
+}
+
+/* Alertas */
+ion-alert {
+  --background: #e3f2fd;
+  --color: #0d47a1;
+  font-weight: 700;
+}
+
+/* Toast */
+ion-toast {
+  --background: #2196f3;
+  --color: white;
+  font-weight: 700;
+}
+
+/* Texto centrado */
+p {
+  text-align: center;
+  font-size: 18px;
+  color: #1976d2;
+}
