@@ -1,0 +1,68 @@
+.inventario-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.inventario-item:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.inventario-titulo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.label-stock {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #555;
+}
+
+.input-stock {
+  background-color: #f0f4f8;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.boton-agregar {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.boton-editar, .boton-eliminar {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.boton-editar {
+  background-color: #ffa000;
+  color: white;
+}
+
+.boton-eliminar {
+  background-color: #f44336;
+  color: white;
+}
+
+.modal-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.modal-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+}

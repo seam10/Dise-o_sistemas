@@ -1,0 +1,51 @@
+.factura-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.factura-box {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.factura-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1e1e1e;
+}
+
+.factura-box p {
+  font-size: 0.95rem;
+  margin: 6px 0;
+  color: #333;
+}
+
+.factura-box hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 12px 0;
+}
+
+.factura-productos {
+  text-align: left;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.factura-box h3 {
+  font-size: 1.2rem;
+  color: #000;
+  margin-top: 15px;
+}
+
+.factura-box ion-button {
+  margin-top: 18px;
+}
